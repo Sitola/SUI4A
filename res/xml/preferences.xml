@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="SAGE Settings">
+                <EditTextPreference
+                	android:name="IP Address"
+                	android:defaultValue="Nothing"
+                	android:title="IP Address of the SAGE"
+                	android:key="SAGEIPAddress" />
+                <EditTextPreference
+                	android:name="Port"
+                	android:summary="Port"
+                	android:defaultValue="20001"
+                	android:title="Port of the SAGE"
+                	android:key="SAGEPort" />
+                 <CheckBoxPreference
+                	android:name="KeepAspectRatio"
+                	android:defaultValue="true"
+                	android:title="Keep Aspect Ratio"
+                	android:key="KeepAspectRatio" />
+                 <CheckBoxPreference
+                	android:name="ViewPerformanceInfo"
+                	android:defaultValue="true"
+                	android:title="View Performance Info"
+                	android:key="ViewPerformanceInfo" />
+        </PreferenceCategory>
+</PreferenceScreen>
